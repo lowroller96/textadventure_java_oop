@@ -6,18 +6,21 @@ public class Story {
     protected int auswirkungKonto;
     protected boolean isteventNegativ;
     protected String ort;
+    protected String art;
 
     public Story(
             String erzaehlElement,
             int auswirkungGesundheit,
             int auswirkungKonto,
             boolean isteventNegativ,
-            String ort){
+            String ort,
+            String art){
         this.erzaehlElement = erzaehlElement;
         this.auswirkungGesundheit=auswirkungGesundheit;
         this.auswirkungKonto=auswirkungKonto;
         this.isteventNegativ=isteventNegativ;
         this.ort=ort;
+        this.art=art;
     }
     public String getErzaehlElement() {
         return erzaehlElement;
@@ -56,6 +59,13 @@ public class Story {
 
     public void setOrt(String ort) {
         this.ort = ort;
+    }
+
+    public String getArt(){
+        return this.art;
+    }
+    public void setArt (String art) {
+        this.art=art;
     }
 }
 
