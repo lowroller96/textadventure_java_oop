@@ -13,15 +13,15 @@ public class Story {
             int auswirkungGesundheit,
             int auswirkungKonto,
             boolean isteventNegativ,
-            String ort,
-            String art){
+            String ort) {
         this.erzaehlElement = erzaehlElement;
-        this.auswirkungGesundheit=auswirkungGesundheit;
-        this.auswirkungKonto=auswirkungKonto;
-        this.isteventNegativ=isteventNegativ;
-        this.ort=ort;
-        this.art=art;
+        this.auswirkungGesundheit = auswirkungGesundheit;
+        this.auswirkungKonto = auswirkungKonto;
+        this.isteventNegativ = isteventNegativ;
+        this.ort = ort;
+        this.art = "TODO11";
     }
+
     public String getErzaehlElement() {
         return erzaehlElement;
     }
@@ -33,8 +33,9 @@ public class Story {
     public int getAuswirkungGesundheit() {
         return this.auswirkungGesundheit;
     }
+
     public void setAuswirkungGesundheit(int auswirkungGesundheit) {
-        this.auswirkungGesundheit=auswirkungGesundheit;
+        this.auswirkungGesundheit = auswirkungGesundheit;
     }
 
     public int getAuswirkungKonto() {
@@ -46,7 +47,7 @@ public class Story {
     }
 
     public boolean isIsteventNegativ() {
-        return  this.isteventNegativ;
+        return this.isteventNegativ;
     }
 
     public void setIsteventNegativ(boolean isteventNegativ) {
@@ -54,18 +55,19 @@ public class Story {
     }
 
     public String getOrt() {
-        return  this.ort;
+        return this.ort;
     }
 
     public void setOrt(String ort) {
         this.ort = ort;
     }
 
-    public String getArt(){
+    public String getArt() {
         return this.art;
     }
-    public void setArt (String art) {
-        this.art=art;
+
+    public void setArt(String art) {
+        this.art = art;
     }
 }
 
