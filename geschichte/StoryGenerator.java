@@ -1,13 +1,10 @@
 package geschichte;
 
-public class StoryGenerator extends Story {
+public class StoryGenerator {
 
-    public StoryGenerator(String erzaehlElement, int auswirkungGesundheit, int auswirkungKonto, boolean isteventNegativ, String ort, String art) {
-        super(erzaehlElement,
-                auswirkungGesundheit,
-                auswirkungKonto,
-                isteventNegativ,
-                ort);
+    public void StoryGenerator() {
+
+
     }
 }
 
